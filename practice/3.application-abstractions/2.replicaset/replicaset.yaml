@@ -1,5 +1,5 @@
 ---
-# file: practice/2.application-abstractions/2.replicaset/replicaset.yaml
+# file: practice/3.application-abstractions/2.replicaset/replicaset.yaml
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:

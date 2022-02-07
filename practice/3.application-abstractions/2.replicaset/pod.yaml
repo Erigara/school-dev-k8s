@@ -1,5 +1,5 @@
 ---
-# file: practice/2.application-abstractions/2.replicaset/pod.yaml
+# file: practice/3.application-abstractions/2.replicaset/pod.yaml
 apiVersion: v1
 kind: Pod
 metadata:
