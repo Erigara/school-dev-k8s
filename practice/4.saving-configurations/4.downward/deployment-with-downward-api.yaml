@@ -19,16 +19,11 @@ spec:
         app: my-app
     spec:
       containers:
-      - image: quay.io/testing-farm/nginx:1.12
+      - image: nginx:1.12
         name: nginx
         env:
         - name: TEST
           value: foo
-        - name: TEST_1
-          valueFrom:
-            secretKeyRef:
-              name: test
-              key: test1
         - name: __NODE_NAME
           valueFrom:
             fieldRef:
